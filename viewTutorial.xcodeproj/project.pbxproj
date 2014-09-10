@@ -21,6 +21,7 @@
 		A83D53D019C0AD2300660B09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83D53B219C0AD2300660B09 /* UIKit.framework */; };
 		A83D53D819C0AD2300660B09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A83D53D619C0AD2300660B09 /* InfoPlist.strings */; };
 		A83D53DA19C0AD2300660B09 /* viewTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A83D53D919C0AD2300660B09 /* viewTutorialTests.m */; };
+		A83D53E519C0AE8F00660B09 /* CHGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = A83D53E419C0AE8F00660B09 /* CHGrid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A83D53D519C0AD2300660B09 /* viewTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viewTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		A83D53D719C0AD2300660B09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A83D53D919C0AD2300660B09 /* viewTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewTutorialTests.m; sourceTree = "<group>"; };
+		A83D53E319C0AE8F00660B09 /* CHGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHGrid.h; sourceTree = "<group>"; };
+		A83D53E419C0AE8F00660B09 /* CHGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHGrid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				A83D53C419C0AD2300660B09 /* CHViewController.m */,
 				A83D53C619C0AD2300660B09 /* Images.xcassets */,
 				A83D53B519C0AD2300660B09 /* Supporting Files */,
+				A83D53E319C0AE8F00660B09 /* CHGrid.h */,
+				A83D53E419C0AE8F00660B09 /* CHGrid.m */,
 			);
 			path = viewTutorial;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A83D53E519C0AE8F00660B09 /* CHGrid.m in Sources */,
 				A83D53BB19C0AD2300660B09 /* main.m in Sources */,
 				A83D53BF19C0AD2300660B09 /* CHAppDelegate.m in Sources */,
 				A83D53C519C0AD2300660B09 /* CHViewController.m in Sources */,
